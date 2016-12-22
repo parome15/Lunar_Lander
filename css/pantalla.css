@@ -1,0 +1,63 @@
+
+body,html{height:100%;padding:0px;margin:0px;background-image: url(../img/fondo.png);background-repeat: repeat;}
+
+ 
+.aa,.b,.c{display:inline-block;width:33.33%;height:100%;float:left;}
+.d{height:10%;width:100%;position:fixed;bottom:0px;}
+.d img{width: 100%; z-index: 5;}
+
+.aboutme{width: 35%;color: white; text-align: center;font-style: italic; font-size: x-large;overflow: none;overflow: hidden;position: fixed; left: 35%;}
+#nave{text-align:center;position:fixed;top:10%;height:20%;left: 45%;}
+#nave img{height:100%;}
+#cpanel{border-style: solid; border-color: grey; color:white; margin-right: 40%;font-size: 18px;}
+
+
+#hidem{display: block;color: white;}
+#showm{display: block;color: white;position: fixed; top:30%;}
+
+#dificultadboton{display: block;color: white;position: fixed; top:25%;}
+#menudificultad{
+	position:fixed;left: 9%; top:15%;
+}
+#menu{color:white;list-style-type: none;position: fixed;right: 20%;}
+.niveles{overflow: hidden;}
+.instrucciones{width: 35%;left: 35%;color: white; text-align: center;font-style: italic;font-size: x-large;position: fixed;}
+.botonvolverajustes1{
+	height: 60%;
+}
+.botonvolverajustes1 img{
+	width: 30%;
+}
+.c{display: none;}
+
+.botonvolver{
+	
+	height: 60%;
+	}
+.botonvolver img{
+	width: 30%;
+}
+
+.imagenplay{
+	width: 60%;
+}
+.imagennivel{
+	width: 60%;
+}
+.imagenconfig{
+	width: 60%;
+}
+.aboutmeP{
+	width: 60%;
+}
+a.enlaceabout:hover{font-size: 150%;}
+
+.botonvolver:hover,.imagenplay:hover,.imagennivel:hover,.imagenconfig:hover,.aboutmeP:hover,.listaatras:hover,.imagendificult:hover,#showm:hover{
+            transform:scale(1.2);
+            -ms-transform:scale(1.2); 
+            -moz-transform:scale(1.2); 
+            -webkit-transform:scale(1.2); 
+            -o-transform:scale(1.2); 
+        }
+
+

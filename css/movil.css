@@ -1,0 +1,52 @@
+
+body,html{height:100%;padding:0px;margin:0px;background-image: url(../img/fondo.png); background-repeat: repeat;}
+.aa{background-image: url(../img/fondo.jpg);width:100%;height:110px;overflow:hidden;position:fixed;top:0px}
+.b{background-image: url(../img/fondo.jpg);width:100%;height:100%;overflow:hidden;}
+.c{background-image: url(../img/fondo.jpg);position:fixed;top:0px;bottom:0px;left:0px;right:0px;display:none;z-index:1}
+.d{position:fixed;bottom:0px;height:10%;width:100%; z-index: 5;}
+.d img{width: 100%;}
+#nave{text-align:center;position:fixed;top:20%;width:100%;height:20%}
+#nave img{height:100%;}
+#cpanel{border-style: solid; border-color: grey; color:white; margin-right: 50%; background: transparent;}
+#hidem{display: block;color: white;width: 25%;}
+#showm{float: right; display: block;color: white; position: fixed; top: 22%;height: 10%; width: 15%;}
+#menu{color:white; text-align: center;list-style-type: none;position: relative;bottom: 6%;}
+#showm img{width: 100%;}
+.aboutme{width: 100%;height: 100%;color: white; text-align: center; font-size: x-large;}
+.instrucciones{width: 100%;height: 100%;color: white;text-align: center;font-size:x-large;}
+.botonvolver{
+	text-align: center; 
+	height: 33%;
+}
+#menudificultad{
+	position: fixed; top: 0%;
+}
+.botonvolverniveles{
+position: fixed;
+	height: 30%;
+	width: 35%;
+	top:85%;
+	right: 0px;
+	}
+
+.imagenplay{
+	width: 30%;
+}
+.imagennivel{
+	width: 30%;
+}
+.imagenconfig{
+	width: 30%;
+}
+.aboutmeP{
+	width: 30%;
+}
+.niveles{overflow: hidden;}
+a.enlaceabout:hover{font-size: 150%;}
+.botonvolver:hover,.imagenplay:hover,.imagennivel:hover,.imagenconfig:hover,.aboutmeP:hover,.listaatras:hover,.imagendificult:hover,#showm:hover{
+            transform:scale(1.2);
+            -ms-transform:scale(1.2); 
+            -moz-transform:scale(1.2); 
+            -webkit-transform:scale(1.2); 
+            -o-transform:scale(1.2); 
+        }
